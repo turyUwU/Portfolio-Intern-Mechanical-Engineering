@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pham Tien Dat — Mechanical Engineering Intern</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="container nav__inner">
+      <a href="#" class="nav__logo">Pham Tien Dat</a>
+      <ul class="nav__links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button type="button" class="nav__toggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero / Introduction -->
+  <section id="about" class="section hero">
+    <div class="container">
+      <div class="hero__grid">
+        <div class="hero__text reveal">
+          <p class="hero__label">Mechanical Engineering Intern</p>
+          <h1 class="hero__title">Pham Tien Dat</h1>
+          <p class="hero__desc">
+            Mechanical Engineering student seeking an internship to apply CAD and basic FEA knowledge
+            in real projects while developing practical skills in design, fabrication, and mechanical systems.
+          </p>
+          <div class="hero__actions">
+            <a href="#projects" class="btn btn--primary">View Projects</a>
+            <a href="#contact" class="btn btn--secondary">Get in Touch</a>
+          </div>
+        </div>
+        <div class="hero__photo reveal delay-2">
+          <div class="hero__avatar">
+            <svg viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="120" height="120" rx="60" fill="#E0E7FF"/>
+              <circle cx="60" cy="45" r="20" fill="#A5B4FC"/>
+              <ellipse cx="60" cy="95" rx="35" ry="25" fill="#A5B4FC"/>
+            </svg>
+          </div>
+          <div class="hero__details">
+            <div class="hero__detail">
+              <span class="hero__detail-label">Location</span>
+              <span class="hero__detail-value">HCMC, Vietnam</span>
+            </div>
+            <div class="hero__detail">
+              <span class="hero__detail-label">DOB</span>
+              <span class="hero__detail-value">12/08/2005</span>
+            </div>
+            <div class="hero__detail">
+              <span class="hero__detail-label">Focus</span>
+              <span class="hero__detail-value">Manufacturing Engineering</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="section">
+    <div class="container">
+      <h2 class="section__title reveal">Education</h2>
+      <div class="cards">
+        <div class="card reveal">
+          <div class="card__header">
+            <div class="card__icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 1.1 2.7 2 6 2s6-.9 6-2v-5"/></svg>
+            </div>
+            <span class="card__date">2024 — 2027</span>
+          </div>
+          <h3 class="card__title">Engineer Degree in Mechanical Manufacturing Engineering</h3>
+          <p class="card__subtitle">University of Technology and Engineering (UTE-HCM)</p>
+          <p class="card__text">
+            Currently in 3rd year. Studying mechanical manufacturing processes, CAD/CAM systems,
+            strength of materials, and FEA simulation methods.
+          </p>
+          <div class="card__tags">
+            <span class="tag">3rd Year</span>
+            <span class="tag">Manufacturing</span>
+            <span class="tag">CAD/FEA</span>
+          </div>
+        </div>
+
+        <div class="card reveal delay-1">
+          <div class="card__header">
+            <div class="card__icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+            </div>
+            <span class="card__date">2020 — 2024</span>
+          </div>
+          <h3 class="card__title">Advanced Diploma — Practical Engineer in Metal Cutting</h3>
+          <p class="card__subtitle">Ba Ria - Vung Tau College of Technology</p>
+          <p class="card__text">
+            Completed practical training in metal cutting, machining operations, technical drawing,
+            and workshop fabrication processes.
+          </p>
+          <div class="card__tags">
+            <span class="tag">Metal Cutting</span>
+            <span class="tag">Machining</span>
+            <span class="tag">Technical Drawing</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="section section--alt">
+    <div class="container">
+      <h2 class="section__title reveal">Experience</h2>
+      <div class="timeline">
+        <div class="timeline__line"></div>
+
+        <div class="timeline__item reveal">
+          <div class="timeline__dot"></div>
+          <div class="timeline__content">
+            <span class="timeline__date">Feb 2025 — Present</span>
+            <h3 class="timeline__title">Structural & CAD Training Instructor</h3>
+            <p class="timeline__company">Freelance</p>
+            <ul class="timeline__list">
+              <li>Taught AutoCAD, SolidWorks, and basic ANSYS (FEA)</li>
+              <li>Guided modeling, simulation, and technical reporting</li>
+            </ul>
+            <div class="card__tags">
+              <span class="tag">AutoCAD</span>
+              <span class="tag">SolidWorks</span>
+              <span class="tag">ANSYS</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline__item reveal delay-1">
+          <div class="timeline__dot"></div>
+          <div class="timeline__content">
+            <span class="timeline__date">Nov 2023 — Dec 2024</span>
+            <h3 class="timeline__title">Mechanic</h3>
+            <p class="timeline__company">Anh Kim Precision Mechanical Workshop</p>
+            <ul class="timeline__list">
+              <li>Supported machining and fabrication of mechanical parts</li>
+              <li>Interpreted technical drawings for production tasks</li>
+              <li>Performed cutting, fitting, and basic quality measurements</li>
+            </ul>
+            <div class="card__tags">
+              <span class="tag">Machining</span>
+              <span class="tag">Fabrication</span>
+              <span class="tag">QC</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline__item reveal delay-2">
+          <div class="timeline__dot"></div>
+          <div class="timeline__content">
+            <span class="timeline__date">Dec 2022 — Apr 2023</span>
+            <h3 class="timeline__title">Helper Mechanical</h3>
+            <p class="timeline__company">Long Trieu Mechanical Services Co., Ltd</p>
+            <ul class="timeline__list">
+              <li>Assisted piping and steel structure installation on-site</li>
+              <li>Supported alignment and assembly of components</li>
+              <li>Read basic technical drawings and used hand tools</li>
+            </ul>
+            <div class="card__tags">
+              <span class="tag">Piping</span>
+              <span class="tag">Steel Structure</span>
+              <span class="tag">Assembly</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="section__title reveal">Projects</h2>
+
+      <div class="cards">
+        <div class="card card--project reveal">
+          <div class="card__thumb">
+            <img src="images/helmet.png" alt="Carbon Fiber Safety Helmet" width="400" height="300">
+          </div>
+          <div class="card__badge">Student Project</div>
+          <h3 class="card__title">Carbon Fiber Safety Helmet Fabrication</h3>
+          <p class="card__text">
+            Participated in the design and fabrication of a safety helmet using carbon fiber composite
+            materials, focusing on improving strength, durability, and weight reduction.
+          </p>
+
+          <h4 class="card__section-title">Key Responsibilities</h4>
+          <ul class="card__list">
+            <li>Took primary responsibility (~85% workload) in design, material preparation, and fabrication</li>
+            <li>Designed helmet structure using CAD (SolidWorks/AutoCAD)</li>
+            <li>Selected and researched carbon fiber composite materials for optimal strength-to-weight ratio</li>
+            <li>Performed basic FEA simulation (ANSYS) to evaluate stress distribution and structural performance</li>
+            <li>Executed fabrication steps including fiber layering, resin application, and molding</li>
+            <li>Assisted in finishing process and basic quality checking of the final product</li>
+          </ul>
+
+          <h4 class="card__section-title">Key Achievements</h4>
+          <ul class="card__list">
+            <li>Successfully developed a lightweight and high-strength helmet prototype</li>
+            <li>Gained hands-on experience in composite manufacturing process</li>
+            <li>Improved practical skills in CAD design, simulation, and fabrication workflow</li>
+          </ul>
+
+          <div class="card__tags">
+            <span class="tag">SolidWorks</span>
+            <span class="tag">AutoCAD</span>
+            <span class="tag">ANSYS</span>
+            <span class="tag">Carbon Fiber</span>
+            <span class="tag">Composite</span>
+          </div>
+
+          <div class="card__video">
+            <a href="https://www.youtube.com/watch?v=Z0fU0dc1NRk" target="_blank" rel="noopener noreferrer" class="card__video-link" aria-label="Watch Carbon Fiber Safety Helmet video on YouTube">
+              <img src="https://img.youtube.com/vi/Z0fU0dc1NRk/maxresdefault.jpg" alt="Carbon Fiber Safety Helmet Video" class="card__video-thumb" onerror="this.onerror=null; this.src='https://img.youtube.com/vi/Z0fU0dc1NRk/hqdefault.jpg'">
+              <div class="card__video-play">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="white" stroke="none"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="card card--project reveal delay-1">
+          <div class="card__thumb">
+            <img src="images/casting.png" alt="Sheave Wheel Casting Design Project" width="400" height="300">
+          </div>
+          <div class="card__badge">Student Project</div>
+          <h3 class="card__title">Sheave Wheel Casting Design Project</h3>
+          <p class="card__text">
+            Contributed approximately 75% of the workload in a casting-related design project for a
+            250 mm sheave wheel, focusing on 3D modeling, technical drawings, and process planning
+            instead of direct fabrication.
+          </p>
+
+          <h4 class="card__section-title">Key Responsibilities</h4>
+          <ul class="card__list">
+            <li>Handled around 75% of the project workload in design development and drawing preparation</li>
+            <li>Created the 3D CAD model of the sheave wheel for design review and manufacturing reference</li>
+            <li>Prepared 2D technical drawings with dimensions, views, and key production notes</li>
+            <li>Supported process planning by organizing the drawing package and workflow documentation</li>
+            <li>Coordinated design details to make the component suitable for casting and later machining steps</li>
+            <li>Reviewed model and drawing output to reduce dimensional errors before production handoff</li>
+          </ul>
+
+          <h4 class="card__section-title">Key Achievements</h4>
+          <ul class="card__list">
+            <li>Delivered a complete 3D model and drawing set for a casting-oriented mechanical component</li>
+            <li>Strengthened practical skills in CAD design, drafting standards, and manufacturing documentation</li>
+            <li>Improved understanding of how design and process planning affect downstream production quality</li>
+          </ul>
+
+          <div class="card__tags">
+            <span class="tag">Casting</span>
+            <span class="tag">3D Modeling</span>
+            <span class="tag">Technical Drawing</span>
+            <span class="tag">Process Planning</span>
+            <span class="tag">SolidWorks</span>
+          </div>
+
+          <div class="card__actions">
+            <button type="button" class="btn btn--secondary card__model-btn" data-model-key="pulleyD250mmStl" data-model-alt="3D model of a 250 mm pulley wheel">
+              View 3D Model
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills & Certificates -->
+  <section id="skills" class="section section--alt">
+    <div class="container">
+      <h2 class="section__title reveal">Skills & Certificates</h2>
+
+      <div class="skills-grid">
+        <div class="reveal">
+          <h3 class="section__subtitle">Technical Skills</h3>
+          <ul class="skills-list">
+            <li>
+              <span class="skills-list__icon">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              </span>
+              Read and interpret 2D technical drawings
+            </li>
+            <li>
+              <span class="skills-list__icon">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              </span>
+              AutoCAD and SolidWorks for drafting and modeling
+            </li>
+            <li>
+              <span class="skills-list__icon">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              </span>
+              ANSYS (FEA) for simple simulations (stress, deformation)
+            </li>
+            <li>
+              <span class="skills-list__icon">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              </span>
+              Fundamental concepts in Strength of Materials
+            </li>
+            <li>
+              <span class="skills-list__icon">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              </span>
+              Machining and fabrication processes
+            </li>
+            <li>
+              <span class="skills-list__icon">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              </span>
+              Measurement using common tools
+            </li>
+            <li>
+              <span class="skills-list__icon">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              </span>
+              Microsoft Office (Word, Excel, PowerPoint)
+            </li>
+          </ul>
+        </div>
+
+        <div class="reveal delay-1">
+          <h3 class="section__subtitle">Soft Skills</h3>
+          <ul class="skills-list">
+            <li>
+              <span class="skills-list__icon">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              </span>
+              Teamwork and collaboration
+            </li>
+            <li>
+              <span class="skills-list__icon">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              </span>
+              Willingness to learn and adapt
+            </li>
+            <li>
+              <span class="skills-list__icon">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              </span>
+              Problem-solving under guidance
+            </li>
+            <li>
+              <span class="skills-list__icon">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              </span>
+              Time management and organization
+            </li>
+            <li>
+              <span class="skills-list__icon">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              </span>
+              Basic English for technical documents
+            </li>
+            <li>
+              <span class="skills-list__icon">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              </span>
+              Responsible and proactive attitude
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <h3 class="section__subtitle section__subtitle--spaced reveal">Certificates & Diplomas</h3>
+      <div class="cards cards--2col">
+        <!-- Advanced Diploma -->
+        <div class="card card--compact reveal">
+          <img src="images/diploma.jpg" alt="Advanced Diploma in Metal Cutting" class="card__cert-img" onerror="this.style.display='none'">
+          <h3 class="card__title">Advanced Diploma — Practical Engineer in Metal Cutting</h3>
+          <p class="card__text-sm">Ba Ria - Vung Tau College of Technology<br>Graduation Grade: Distinction</p>
+        </div>
+
+        <!-- ISO Certificate -->
+        <div class="card card--compact reveal delay-1">
+          <img src="images/cert-iso.jpg" alt="ISO Internal Auditor Certificate" class="card__cert-img" onerror="this.style.display='none'">
+          <h3 class="card__title">Specialist of Management Systems and Internal Auditor</h3>
+          <p class="card__text-sm">ISO 9001:2015 — ISO 14001:2015 — ISO 45001:2018<br>IRTC International Management Technology Training Research Institute</p>
+        </div>
+
+        <!-- IT Certificate -->
+        <div class="card card--compact reveal delay-2">
+          <img src="images/cert-it.jpg" alt="Basic IT Application Certificate" class="card__cert-img" onerror="this.style.display='none'">
+          <h3 class="card__title">Basic Information Technology Application Certificate</h3>
+          <p class="card__text-sm">VNUHCM - University of Information Technology</p>
+        </div>
+
+        <!-- English Certificate -->
+        <div class="card card--compact reveal delay-3">
+          <img src="images/cert-english.jpg" alt="Intermediate Communicative English" class="card__cert-img" onerror="this.style.display='none'">
+          <h3 class="card__title">Intermediate Course in Communicative English (Level 4)</h3>
+          <p class="card__text-sm">Natural English School</p>
+        </div>
+
+        <!-- OSHA Certificate -->
+        <div class="card card--compact reveal delay-4">
+          <img src="images/cert-osha.jpg" alt="OSHA Certificate" class="card__cert-img" onerror="this.style.display='none'">
+          <h3 class="card__title">OSHA Certificate</h3>
+        </div>
+
+        <!-- 7 QC Tools -->
+        <div class="card card--compact reveal delay-5">
+          <img src="images/cert-7 tools QC.jpg" alt="7 QC Tools Training Certificate" class="card__cert-img" onerror="this.style.display='none'">
+          <h3 class="card__title">7 QC Tools Training</h3>
+          <p class="card__text-sm">Ho Chi Minh City University of Technology and Engineering</p>
+        </div>
+
+        <!-- Academic Transcript (Board Mark) -->
+        <div class="card card--compact reveal delay-6">
+          <img src="images/board mark.jpg" alt="Academic Transcript" class="card__cert-img" onerror="this.style.display='none'">
+          <h3 class="card__title">Academic Transcript</h3>
+          <p class="card__text-sm">Official Academic Records</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="contact reveal">
+        <h2 class="section__title">Get in Touch</h2>
+        <p class="contact__desc">
+          I'm currently seeking a Mechanical Engineering internship to apply my CAD, FEA,
+          and fabrication skills in real-world projects. Feel free to reach out.
+        </p>
+        <div class="contact__info">
+          <div class="contact__item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            <span>+84 932 830 209</span>
+          </div>
+          <div class="contact__item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 4l-10 8L2 4"/></svg>
+            <span>tiendatqtc67@gmail.com</span>
+          </div>
+          <div class="contact__item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>22/54C1 Chi Lang, Phuoc Thang Ward, HCMC</span>
+          </div>
+        </div>
+        <div class="contact__links">
+          <a href="mailto:tiendatqtc67@gmail.com" class="btn btn--primary">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 4l-10 8L2 4"/></svg>
+            Email Me
+          </a>
+          <a href="tel:+84932830209" class="btn btn--secondary">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            Call Me
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>&copy; 2026 Pham Tien Dat. Built with care.</p>
+    </div>
+  </footer>
+
+  <!-- 3D Model Modal -->
+  <div class="model-modal" id="modelModal" aria-hidden="true">
+    <div class="model-modal__overlay" data-model-close="true"></div>
+    <div class="model-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="modelModalTitle">
+      <div class="model-modal__header">
+        <h3 class="model-modal__title" id="modelModalTitle">3D Model Preview</h3>
+        <button type="button" class="model-modal__close" id="modelModalClose" aria-label="Close 3D model viewer">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+      </div>
+      <div class="model-modal__viewer">
+        <div class="model-modal__canvas" id="projectModelCanvas"></div>
+        <p class="model-modal__hint">Drag to rotate, scroll to zoom.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Image Viewer Modal -->
+  <div class="image-viewer" id="imageViewer">
+    <div class="image-viewer__overlay"></div>
+    <div class="image-viewer__controls">
+      <button class="image-viewer__btn" id="ivRotate" aria-label="Rotate">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12a9 9 0 11-9-9c2.52 0 4.93 1 6.74 2.74L21 8"/><path d="M21 3v5h-5"/></svg>
+      </button>
+      <button class="image-viewer__btn" id="ivZoomOut" aria-label="Zoom Out">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+      </button>
+      <button class="image-viewer__btn" id="ivZoomIn" aria-label="Zoom In">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+      </button>
+      <button class="image-viewer__btn" id="ivClose" aria-label="Close">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+    </div>
+    <div class="image-viewer__content">
+      <img id="ivImage" src="" alt="Viewer">
+    </div>
+  </div>
+
+  <script src="js/model-data.js"></script>
+  <script type="module" src="js/model-viewer.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
